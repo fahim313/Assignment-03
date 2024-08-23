@@ -32,9 +32,9 @@
     </style>
 </head>
 <body class="font-manrope">
-  <header class="md:w-[1300px] mx-auto">
+  <header class=" md:container mx-auto  ">
     <!-- Navbar section -->
-     <nav class="mt-[50px]">
+     <nav class="mt-[50px] ml-[68px]">
        <div class="navbar bg-base-100">
           <div class="navbar-start">
           <!-- <div class="flex items-center justify-center w-12 h-12 bg-[#ABEF5F] rounded-full" >
@@ -95,11 +95,11 @@
      <!-- Banner Section -->
         <section>
           <!-- Banner Iamge -->
-           <div class=" flex  justify-center">
-            <img class=" mx-auto w-full max-w-md sm:max-w-lg object-contain" src="assets/banner.png" alt="">
+           <div class=" flex justify-center ml-[82px] ">
+            <img class=" mx-auto w-full max-w-md sm:max-w-lg object-contain " src="assets/banner.png" alt="">
            </div> 
            <!-- Banner Title -->
-             <div class="mt-8">
+             <div class="mt-8 ml-20">
              <h1 class="text-4xl lg:text-7xl font-extrabold text-center">A barn house of this design has a <br>
               striking appearance</h1>
             </div> 
@@ -115,11 +115,70 @@
                   <i class="fa-solid fa-arrow-right -rotate-45 text-xl w-7 h-7 bg-[#ABEF5F] text-[#FFFFFF] rounded-full ml-2"></i>
                 </button>
               </div>
-              
         </section>
-     
-
+            
+          <!-- Design thoughtful section -->
+          <section class="w-full  mt-10 bg-[#F8F9F9] px-6 py-12 ">
+            <!-- Flex container for left and right sections -->
+            <div class="flex flex-col lg:flex-row items-center lg:items-start space-y-14 lg:space-y-0 lg:space-x-12">
+                
+                <!-- Left Side: Text Content and Cards -->
+                <div class="w-full lg:w-1/2 flex flex-col items-center lg:items-start">
+                    <!-- Icon and About Us Button -->
+                    <div class="space-x-20 space-y-14 p-8 flex flex-col items-center sm:items-start sm:relative">
+                        <img class="hidden sm:block w-18 h-18" src="assets/Vector.png" alt="Icon">
+                        <button class="flex items-center  w-[200px] h-[50px] px-8 font-bold text-gray-700 rounded-full shadow-lg bg-white border sm:absolute sm:left-0">
+                            <span class="mr-2">→</span> About Us
+                        </button>
+                    </div>
+                    
+                    <!-- Heading and Description -->
+                    <div class="mt-14 text-center lg:text-left lg:ml-14">
+                        <h1 class="text-4xl font-extrabold leading-tight">We design thoughtful,<br> liveable spaces</h1>
+                        <p class="mt-4 text-gray-600">
+                            The barn house captivates with its blend of rustic charm and<br>
+                            modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+        
+                    <!-- Cards Section -->
+                    <div class="mt-12 space-y-6 lg:ml-14">
+                        <!-- Commercial Card -->
+                        <div class="p-4 bg-white rounded-2xl shadow-xl flex items-center">
+                            <div class="flex-shrink-0 mr-4">
+                                <img src="assets/commercial.png" alt="Commercial Image">
+                            </div>
+                            <div>
+                                <h2 class="text-xl font-bold text-gray-900">Commercial</h2>
+                                <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+        
+                        <!-- Residential Card -->
+                        <div class="p-4 bg-white rounded-2xl shadow-xl flex items-center">
+                            <div class="flex-shrink-0 mr-4">
+                                <img src="assets/residential.png" alt="Residential Image">
+                            </div>
+                            <div>
+                                <h2 class="text-xl font-bold text-gray-900">Residential</h2>
+                                <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Right Side: Image Section -->
+                <div class="w-full lg:w-1/2 mt-12 lg:mt-0">
+                    <img class=" lg:w-[480px] lg:h-full lg:mt-[132px]  object-cover rounded-lg" src="assets/Rectangle.png" alt="Rectangle Image">
+                </div>
+            </div>
+        </section>
  </header>
-  
+
+       
+     
+      
+
+   
 </body>
 </html>
